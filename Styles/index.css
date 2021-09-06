@@ -132,3 +132,47 @@ body {
   text-align: left;
   line-height: 1.3;
 }
+
+.card-navigation-view {
+  background: blue;
+  width: 100vw;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.navigation-card-container {
+  width: 50%;
+  background: red;
+  height: 200px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navigation-card {
+  background: blue;
+  height: 90%;
+  width: 90%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.navigation-card-top {
+  width: 100%;
+  height: 70%;
+  background: brown;
+}
+
+.navigation-card-bottom {
+  width: 100%;
+  height: 30%;
+  background: yellow;
+
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
