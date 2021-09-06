@@ -3,6 +3,8 @@ body {
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
+
+  font-family: sans-serif;
 }
 
 .paralax {
@@ -53,4 +55,78 @@ body {
   height: 100vh;
   width: 100vw;
   background-color: aliceblue;
+}
+
+.section-2-navbar {
+  background: #1a1a1a;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.section-2-navbar-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-2-navbar > ul {
+  display: inline-flex;
+}
+
+.section-2-navbar > ul > li {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  color: white;
+  list-style-type: none;
+}
+
+.section-2-navbar > ul > li > a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.logo-img {
+  width: 64px;
+  height: 48px;
+}
+
+.nice-to-meet-view {
+  width: 100vw;
+  background: #f2f1f0;
+  padding: 50px;
+}
+
+.nice-to-meet-container {
+  max-width: 1080px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nice-to-meet-top-text {
+  font-size: 18px;
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.nice-to-meet-line {
+  width: 20%;
+  height: 2px;
+  background-color: gray;
+  color: gray;
+  border-width: 0px;
+}
+
+.nice-to-meet-botom-text {
+  font-size: 22px;
+  color: gray;
+  text-align: left;
+  line-height: 1.3;
 }
