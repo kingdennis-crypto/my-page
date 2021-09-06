@@ -1,0 +1,56 @@
+body {
+  margin: 0%;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+.paralax {
+  margin: 0px;
+
+  background-image: url("../Assets/wallpaper.jpeg");
+
+  min-height: 100vh;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: conver;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcome-message-container {
+  /* background-color: violet; */
+  display: block;
+}
+
+.welcome-message-small {
+  font-size: 42px;
+  color: white;
+
+  text-align: center;
+
+  font-style: italic;
+}
+
+.welcome-message-text {
+  font-size: 72px;
+  color: white;
+}
+
+.welcome-message-line {
+  width: 50%;
+  height: 2px;
+  background-color: white;
+  border-width: 0px;
+  color: white;
+}
+
+.section-2 {
+  height: 100vh;
+  width: 100vw;
+  background-color: aliceblue;
+}
